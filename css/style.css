@@ -60,6 +60,7 @@ img {
   margin-bottom: -4px;
 }
 
+
 #wrapper {
   max-width: 1200px;
   margin: 0 auto;
@@ -130,7 +131,15 @@ a:hover {
   font-weight: bold;
   color: #FF0400;
 }
+p1 {
 
+  font-size: 120%;
+  font-weight: bold;
+  color: #FF0400;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+}
 .FPI  img {
   display: block;
   max-width: 100%;
@@ -151,8 +160,16 @@ a:hover {
   width: 1080px;
   max-width:1080px;
   padding-right: 0px;
-  margin-left: 0 auto;
-  margin-right: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0 auto;
+}
+.slider1 {
+  width: 1080px;
+  max-width:1080px;
+  padding-right: 0px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 0 auto;
 }
 .slider {
@@ -165,11 +182,25 @@ a:hover {
   float:left;
   width: 31.5%;
   float: left;
+  color: inherit;
   padding: 10px;
   text-align: center;
 }
-
-.slider img {
+li2{
+  width: 360px;
+  max-width:360px;
+  padding-right: 0px;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+  margin-top: 0 auto;
+  float:left;
+  width: 31.5%;
+  float: left;
+  color: inherit;
+  padding: 10px;
+  text-align: center;
+}
+u2 {
   width: 360px;
   max-width:360px;
   padding-right: 0px;
@@ -177,6 +208,7 @@ a:hover {
   margin-right: 0 auto;
   margin-top: 0 auto;
 }*/
+
 
 .one-third {
   width: 31.5%;
@@ -374,3 +406,4 @@ footer.second p, .second a {
     width: 95%;
   }
 }
+
