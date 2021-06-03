@@ -1,1 +1,1 @@
-# JACZ.EMOTES
+# JACZ
