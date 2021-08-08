@@ -164,15 +164,15 @@ p1 {
 }
 .sliderP {
   width: 788px;
-  heigth: 940px;
+  max-width:940px;
   padding-right: 0px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 0 auto;
 }
 .slider1 {
-  width: 788px;
-  heigth: 940px;
+  width: 1080px;
+  max-width:1080px;
   padding-right: 0px;
   margin-left: auto;
   margin-right: auto;
@@ -372,6 +372,29 @@ footer.second p, .second a {
     margin: 15px 0 20px -25px;
   }
 
+  #menu-icon {
+    display: inline-block;
+  }
+
+  nav:hover ul {
+    display: block;
+  }
+
+  nav ul, nav:active ul {
+    display: none;
+    z-index: 1000;
+    position: absolute;
+    padding: 20px;
+    background: #020D6D;
+    border: 1px solid #a5bdcd;
+    right: 20px;
+    width: 30%;
+    opacity: .95;
+  }
+  nav li {
+    text-align: center;
+    width: 100%;
+  }
 
 
 
@@ -389,4 +412,3 @@ footer.second p, .second a {
     width: 95%;
   }
 }
-
