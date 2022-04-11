@@ -42,7 +42,7 @@ h3 {
   font-size: 175%;
   line-height: 155%;
   font-weight: 500;
-  color: #FF0400;
+  color: #FFA800;
   text-align: center;
   text-transform: uppercase;
   padding: 0;
@@ -119,7 +119,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #CF0000;
+  color: #FFF;
 }
 
 .current {
@@ -160,7 +160,7 @@ p1 {
   text-align: center;
   float: none;
   font-weight: bold;
-  color: #FF0400;
+  color: #FFF;
 }
 .sliderP {
   width: 788px;
@@ -292,7 +292,7 @@ font-weight: bold;
 }
 
 footer {
-  background: #FF1919;
+  background: #FFA800;
   width: 100%;
   overflow: auto;
 }
@@ -319,12 +319,12 @@ footer {
 
 .footer-nav a {
   font-size: 160%;
-  color: #FFF;
+  color: #FFA800;
   font-weight: 300;
 }
 
 .footer-nav a:hover {
-  color: #000000;
+  color: #FF2875;
 }
 
 .social {
@@ -344,7 +344,7 @@ footer {
 }
 
 .social i:hover {
-  color: #000000;
+  color: #FF2875;
 }
 
 footer.second {
@@ -353,8 +353,14 @@ footer.second {
   margin: 0;
 }
 
-footer.second a:hover {
-  color: #000000;
+.footer-nav a {
+  font-size: 140%;
+  color: #FFF;
+  font-weight: 200;
+}
+
+.footer-nav a:hover {
+  color: #FF2875;
 }
 
 footer.second p, .second a {
@@ -362,60 +368,4 @@ footer.second p, .second a {
   color: #FFF;
   font-size: 160%;
   line-height: 155%;
-}
-
-@media screen and (max-width: 1080px) {
-  p {
-    font-size: 100%;
-  }
-  h3 {
-    font-size: 150%;
-  }
-  header {
-    height: 80px;
-    position: relative;
-  }
-  header #logo {
-    margin: 15px 0 20px -25px;
-  }
-
-  #menu-icon {
-    display: inline-block;
-  }
-
-  nav:hover ul {
-    display: block;
-  }
-
-  nav ul, nav:active ul {
-    display: none;
-    z-index: 1000;
-    position: absolute;
-    padding: 20px;
-    background: #020D6D;
-    border: 1px solid #a5bdcd;
-    right: 20px;
-    width: 30%;
-    opacity: .95;
-  }
-  nav li {
-    text-align: center;
-    width: 100%;
-  }
-
-
-
-  .footer-nav {
-    margin: 0 auto;
-    text-align: center;
-    padding: 5%;
-  }
-
-  .footer-nav li {
-    padding: 1%;
-  }
-  .sidebar iframe {
-    float: right;
-    width: 95%;
-  }
 }
