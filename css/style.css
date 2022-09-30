@@ -12,6 +12,15 @@
 justify-content: center;
 }
 
+F {
+  background-color: #2F2E32;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-attachment: fixed;
+  font-family: sans-serif;
+  margin: 0 auto;
+}
 #contenido{
   background: url(../img/Pics/O2.png);
   background-repeat: no-repeat;
@@ -20,15 +29,17 @@ justify-content: center;
   background-attachment: fixed;
 }
 body {
-  background-color: #2B2342;
+  background-color: #2F2E32;
     font-family: sans-serif;
     margin: 0 auto;
 }
+
 p {
   color: #FFF;
   font-size: 160%;
   line-height: 155%;
   padding: 3%;
+  font-weight: bold;
   text-indent: 2%;
   text-align: center;
 }
@@ -37,7 +48,7 @@ h3 {
   font-size: 175%;
   line-height: 155%;
   font-weight: 500;
-  color: #FFA800;
+  color: #FF0400;
   text-align: center;
   text-transform: uppercase;
   padding: 0;
@@ -60,7 +71,6 @@ img {
   width: auto;
   margin-bottom: -4px;
 }
-
 
 #wrapper {
   max-width: 1200px;
@@ -130,24 +140,17 @@ a:hover {
   text-align: center;
   float: none;
   font-weight: bold;
-  color: #FF0400;
+  color: #WHITE;
+  font-size: 100%;
 }
-p1 {
 
-  font-size: 120%;
-  font-weight: bold;
-  color: #FF0400;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: auto;
-}
 .FPI  img {
   display: block;
   max-width: 100%;
   float: none;
   display: inline-block;
   vertical-align: top;
-  padding: 10px 90px;
+  padding: 10px 50px;
   width: 250px;
 }
 
@@ -155,68 +158,49 @@ p1 {
   text-align: center;
   float: none;
   font-weight: bold;
-  color: #FFF;
+  color: #ffffff;
+}
+.sliderP img {
+  width: 540px;
+  max-width:540px;
+  padding-right: 0px;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+  margin-top: 0 auto;
 }
 .sliderP {
-  width: 788px;
-  max-width:940px;
+  width: 540px;
+  max-width:540px;
   padding-right: 0px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 0 auto;
 }
-.slider1 {
-  width: 1080px;
-  max-width:1080px;
-  padding-right: 0px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0 auto;
-}
-.sliderpub2{
-  width: 500px;
-  max-width:500px;
-  padding-right: 0px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0 auto;}
 .slider {
-  width: 360px;
-  max-width:360px;
-  padding-right: 0px;
-  margin-left: 0 auto;
+  width: 540pxpx;
+  max-width:540pxpx;
+  padding: 10px;
+  padding-right: 80px;
+  float: left;
+  text-align: center;
+  margin-left: 30 auto;
   margin-right: 0 auto;
   margin-top: 0 auto;
-  float:left;
-  width: 31.5%;
-  float: left;
-  color: inherit;
-  padding: 10px;
-  text-align: center;
 }
-li2{
-  width: 360px;
-  max-width:360px;
-  padding-right: 0px;
-  margin-left: 0 auto;
+.sliderpub img {
+  width: 720px;
+  max-width:720px;
+  text-align: center;
   margin-right: 0 auto;
   margin-top: 0 auto;
-  float:left;
-  width: 31.5%;
-  float: left;
-  color: inherit;
-  padding: 10px;
-  text-align: center;
-}
-u2 {
-  width: 360px;
-  max-width:360px;
+}*/
+.slider img {
+  width: auto;
   padding-right: 0px;
   margin-left: 0 auto;
   margin-right: 0 auto;
   margin-top: 0 auto;
 }*/
-
 
 .one-third {
   width: 31.5%;
@@ -264,6 +248,13 @@ u2 {
   float: right;
   width: 110%;
 }
+.sliderpub2{
+  width: 500px;
+  max-width:500px;
+  padding-right: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0 auto;}
 .sidebar p {
   color: #ffffff;
   font-size: 80%;
@@ -287,7 +278,7 @@ font-weight: bold;
 }
 
 footer {
-  background: #FFA800;
+  background: #BBBBBB;
   width: 100%;
   overflow: auto;
 }
@@ -314,12 +305,12 @@ footer {
 
 .footer-nav a {
   font-size: 160%;
-  color: #FFA800;
+  color: #FFF;
   font-weight: 300;
 }
 
 .footer-nav a:hover {
-  color: #FF2875;
+  color: #2F2E32;
 }
 
 .social {
@@ -339,7 +330,7 @@ footer {
 }
 
 .social i:hover {
-  color: #FF2875;
+  color: #2F2E32;
 }
 
 footer.second {
@@ -348,14 +339,8 @@ footer.second {
   margin: 0;
 }
 
-.footer-nav a {
-  font-size: 140%;
-  color: #FFF;
-  font-weight: 200;
-}
-
-.footer-nav a:hover {
-  color: #FF2875;
+footer.second a:hover {
+  color: #2F2E32;
 }
 
 footer.second p, .second a {
